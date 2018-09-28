@@ -1,0 +1,66 @@
+.sale-banners {
+  font-family: $Poppins, sans-serif;
+  text-align: center;
+  padding: 55px 0 55px 0;
+  margin-bottom: 128px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    padding-top: 111px;
+  }
+
+  &__heading {
+    color: $white;
+    font-size: 10.6rem;
+    font-weight: 400;
+    line-height: 10.6rem;
+    margin: 0;
+  }
+
+  &__link {
+    color: $white;
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  &__link:hover {
+    opacity: 0.7;
+  }
+
+  &__details {
+    color: $white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.123rem;
+  }
+
+  // Left banner
+  &__left-banner {
+    background-color: #f9e1e9;
+  }
+
+  &__button {
+    display: block;
+    width: 136px;
+    height: 41px;
+    margin: auto;
+    background-color: #feecec;
+    color: #333333;
+    font-size: 2.1rem;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  &__button:hover {
+    opacity: 0.7;
+  }
+
+  //Right baner
+  &__right-banner {
+    background-color: #cdebf5;
+    color: $white;
+  }
+}

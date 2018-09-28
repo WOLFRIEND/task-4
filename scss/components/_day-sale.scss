@@ -1,0 +1,126 @@
+.day-sale {
+  padding-bottom: 207px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 35px;
+  }
+
+  //Info (left side)
+  &__info {
+    flex-basis: 952px;
+    background-color: #eeeeee;
+  }
+
+  &__button-sale {
+    margin: 120px 352px 0 0;
+    width: 217px;
+    height: 88px;
+    border: none;
+    background-color: #c8c290;
+    color: $white;
+    font-family: $Poppins, sans-serif;
+    font-size: 3.9rem;
+    font-weight: 400;
+    line-height: 7.89rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+    text-decoration: none;
+  }
+
+  &__heading {
+    margin: 44px 129px 0 0;
+    color: $black-grey;
+    font-family: $Poppins, sans-serif;
+    font-size: 5.6rem;
+    font-weight: 400;
+  }
+
+  &__item-description {
+    margin: 0;
+    padding: 100px 220px 0 0;
+    color: $black-grey;
+    font-family: $Poppins, sans-serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+  }
+
+  &__price {
+    margin: 0;
+    padding: 25px 396px 0 0;
+    color: $black-grey;
+    font-family: $Poppins, sans-serif;
+    font-size: 5.2rem;
+    font-weight: 400;
+    line-height: 5.2rem;
+    text-transform: uppercase;
+  }
+
+  &__timer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__timer-item {
+    padding: 0 41px 0 41px;
+    border: 1px solid $white;
+    background-color: #eeeeee;
+    list-style: none;
+    text-align: center;
+  }
+
+  &__timer-number,
+  &__timer-unit {
+    color: $black-grey;
+    font-family: $Poppins, sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 3.106rem;
+    text-transform: uppercase;
+  }
+
+  &__timer-unit {
+    font-size: 1.3rem;
+  }
+
+  &__button-cart {
+    margin-right: 351px;
+    margin-top: 58px;
+    width: 213px;
+    height: 64px;
+    background-color: #eaac00;
+    text-decoration: none;
+    border: none;
+    color: $white;
+    font-family: $Poppins, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.21rem;
+  }
+
+  //Banner
+  &__banner {
+    max-width: 952px;
+    height: auto;
+    color: $white;
+    font-family: $Poppins, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 021rem;
+  }
+
+  &__img {
+    max-width: 952px;
+    height: 1000px;
+  }
+}

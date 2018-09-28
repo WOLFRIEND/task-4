@@ -1,0 +1,45 @@
+.shop-for-women {
+  &__container {
+    background: url(../../img/shop-for-women.jpg) no-repeat center;
+    background-size: cover;
+    max-height: 400px;
+    text-align: center;
+  }
+
+  &__heading {
+    margin: 0;
+    padding-top: 104px;
+    color: $white;
+    font-family: $Poppins, sans-serif;
+    font-size: 4.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__slogan {
+    padding-top: 50px;
+    color: $black;
+    font-family: $Poppins, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.72rem;
+  }
+
+  &__button {
+    margin-top: 50px;
+    margin-bottom: 105px;
+    background-color: #ffff00;
+    color: $black;
+    font-family: $Poppins, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.36rem;
+    border: none;
+  }
+
+  &__button:hover {
+    opacity: 0.7;
+  }
+}

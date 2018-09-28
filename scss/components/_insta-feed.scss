@@ -1,0 +1,10 @@
+.insta-feed {
+  &__container {
+    max-width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 310px));
+    grid-gap: 8px;
+    justify-items: stretch;
+  }
+}
